@@ -1,0 +1,20 @@
+{
+  "name": "rkhyrnsplit",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "androidios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "zip": "bestzip iosBundleSplit.zip iosBundleSplit/bundle-output/split/ && bestzip androidBundleSplit.zip androidBundleSplit/bundle-output/split/"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-native": "0.50.3"
+  }
+}

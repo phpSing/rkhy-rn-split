@@ -1,0 +1,16 @@
+{
+  "package": "rkhyrnsplit",
+  "base": {
+    "index": "./src/base.js"
+  },
+  "custom": [
+    {
+      "name": "Pure",
+      "index": "./src/Pure/index.js"
+    },
+    {
+      "name": "Pure2",
+      "index": "./src/Pure2/index.js"
+    }
+  ]
+}
