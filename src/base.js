@@ -1,7 +1,7 @@
 // base modules
 import 'react'
 import 'react-native'
-// import 'prop-types'
+import 'prop-types'
 // import 'react-redux'
 // import 'redux'
 // import 'redux-thunk'

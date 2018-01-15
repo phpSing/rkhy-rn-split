@@ -175,7 +175,6 @@ class Parser {
           // get react native entry, then init base set.
           reactEntryModule = moduleId;
         }
-        console.log('this._useCustomSplit', this._useCustomSplit)
         if (this._isBaseEntryModule(module)) {
           console.log('获取base模块入口: ' + moduleName);
           this._baseEntryIndexModule = moduleId;
@@ -184,7 +183,6 @@ class Parser {
           customBase.push(moduleId);
         } else if (this._useCustomSplit) {
           let entry = this._isCustomEntryModule(module);
-          console.log('获取自定义模块入口 entry' + entry);
           if (!!entry) {
             console.log('获取自定义模块入口 ' + moduleName);
             customEntry.push({
