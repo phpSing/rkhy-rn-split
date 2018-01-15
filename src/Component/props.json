@@ -1,0 +1,5 @@
+{
+  "is_props_build": true,
+  "component_props_title": "title from json",
+  "component_props_style": "style from json.."
+}
