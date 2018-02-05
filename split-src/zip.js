@@ -37,7 +37,7 @@ function fileDisplay(filePath){
                         var isDir = stats.isDirectory()//是文件夹  
                         if (isFile) { 
                             // console.log(fileDir.split('/'))  
-                        }  
+                        }
                         if (isDir) {
                           const dirArray = fileDir.split('/')
                           const thisDir = _.last(dirArray)

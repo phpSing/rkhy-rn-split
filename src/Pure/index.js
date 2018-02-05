@@ -3,7 +3,12 @@ import React, { PureComponent } from 'react'
 
 import Comp from '../Component'
 
+import tracker from '../utils/tracker'
+
 export default class Pure extends PureComponent {
+  componentDidMount () {
+    tracker && tracker()
+  }
   render () {
     return (
       <View style={{ marginTop: 50 }}>
